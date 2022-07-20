@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  text-align: center;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  font-family: 'Edu TAS Beginner', cursive;
+
+}
+section{
+  width:100vw;
+  height: auto;
+}
+h1{
+  margin: 0;
+  margin-bottom: .5rem;
+  color:rgba(34, 0, 255, 0.934);
+  font-size: xx-larger;
+}
+.equals{
+  font-weight: bold;
+  font-size: xx-large;
+  font-size: 300%;
+}
+.input{
+
+  box-sizing: border-box;
+  font-size: x-large;
+  padding: 0.50rem;
+  height: 3em;
+  border-radius: 0.3em;
+  width: 14em;
+  border:2px solid rgb(141, 8, 218);
+  border-radius: 15px;
+}
+select{
+  width: 5rem;
+  height: 3rem;
+  font-size: larger;
+  border:2px solid rgb(194, 42, 217);
+  margin-left:0.5rem;
+  border-radius: 10px;
+}
